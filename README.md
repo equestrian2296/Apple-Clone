@@ -19,9 +19,6 @@ Welcome to the Apple Clone project! This is a beginner-friendly guide to underst
 - **Three.js**: For 3D model rendering (used in the product showcase)
 - **GSAP**: For advanced animations and timeline control
 
-### Backend
-- **Node.js**: JavaScript runtime environment
-- **Express.js**: Web application framework (if API routes are added)
 
 ### Development Tools
 - **ESLint**: For code linting and maintaining code quality
