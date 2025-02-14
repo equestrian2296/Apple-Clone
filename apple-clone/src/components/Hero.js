@@ -8,13 +8,13 @@ export default function Hero() {
         initial={{ opacity: 0, scale: 0.6 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 3.5 }}
-        className="absolute w-[80%] md:w-[70%] z-0"
+        className="absolute w-[90%] md:w-[80%] z-0"
       >
         <Image
           src="/assets/images/herobgf.png"
           alt="iPhone 16 Pro"
-          width={1900}
-          height={900}
+          width={2500} 
+          height={1500} 
         />
       </motion.div>
       
@@ -24,14 +24,14 @@ export default function Hero() {
         transition={{ delay: 1.5, duration: 3 }}
         className="text-center relative z-10"
       >
-        <h1 className="text-5xl md:text-3xl mt-4 font-bold text-white drop-shadow-[0_0_80px_rgba(255,255,255,1)] shadow-2xl">
+        <h1 className="text-5xl md:text-3.5xl mt-4 font-bold text-white drop-shadow-[0_0_80px_rgba(255,255,255,1)] shadow-2xl">
           iPhone 16 Pro
         </h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.5, duration: 3 }}
-          className="text-6xl md:text-5xl mt-4 text-transparent bg-clip-text bg-gradient-to-b from-[#ffffff] via-[#dddddd] to-[#ffbb00] drop-shadow-[0_0_60px_rgba(255,255,255,1)] shadow-2xl"
+          className="text-6xl md:text-5xl mt-4 text-transparent bg-clip-text bg-gradient-to-b from-[#ffffff] via-[#dddddd] to-[#ffbb00] drop-shadow-[0_0_100px_rgba(255,255,255,1)] shadow-3xl" // Increased drop-shadow size
         >
           Hello, Apple Intelligence.
         </motion.p>
