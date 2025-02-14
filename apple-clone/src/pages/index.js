@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Hero />
-      <ProductSection title="iPhone 15" description="New camera. New design." image="/iphone.png" />
+      <ProductSection title="iPhone 16" description="Hello, Apple intelligence" image="/iphone.png" />
       <Footer />
     </div>
   );
