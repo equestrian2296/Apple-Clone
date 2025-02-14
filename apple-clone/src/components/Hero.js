@@ -31,7 +31,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.5, duration: 3 }}
-          className="text-6xl md:text-5xl mt-4 text-transparent bg-clip-text bg-gradient-to-b from-[#ffffff] via-[#dddddd] to-[#ffbb00] drop-shadow-[0_0_100px_rgba(255,255,255,1)] shadow-3xl" // Increased drop-shadow size
+          className="text-6xl md:text-5xl mt-4 text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] via-[#ffaa66] to-[#99ccff] drop-shadow-[0_0_120px_rgba(255,170,102,1)] shadow-3xl" // Adjusted glow effect
         >
           Hello, Apple Intelligence.
         </motion.p>
